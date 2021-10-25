@@ -17,7 +17,6 @@ public class Solution14 {
             } else {
                 break;
             }
-
         }
         return sb.toString();
     }
