@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution170 {
+public class TwoSum {
     private Map<Integer, Integer> map = new HashMap<>();
 
     public void add(int number) {
