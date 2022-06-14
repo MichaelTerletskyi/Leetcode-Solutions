@@ -1,0 +1,3 @@
+Level : Easy
+
+https://leetcode.com/problems/combine-two-tables/
