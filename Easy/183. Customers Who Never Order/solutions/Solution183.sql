@@ -1,6 +1,6 @@
-SELECT c.name as Customers
+SELECT c.name AS Customers
 FROM Customers c
-WHERE c.id not in (
+WHERE c.id NOT IN (
     SELECT o.customerId
     FROM orders o
 );
