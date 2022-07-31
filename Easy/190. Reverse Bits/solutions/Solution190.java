@@ -3,7 +3,7 @@ public class Solution190 {
         int res = 0; int mask = 1;
         for (int i = 0; i < 32; i++) {
             int digit = n & mask;
-            res = (res << 1);
+            res <<= 1;
             if (digit != 0) {
                 ++res;
             }
